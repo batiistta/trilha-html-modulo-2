@@ -1,6 +1,8 @@
-html, body {
+html,
+body {
     margin: 0;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
@@ -11,28 +13,51 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: white;
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(0, 187, 240);
     padding: 10px 20px 0px;
 }
+
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
-}
-.content {
     background-color: white;
+    min-height: 150px;
+    padding-top: 14px;
+    align-self: center;
+    margin-bottom: none;
+}
+
+.content {
+    background-color: #f1f1f1;
     min-height: 300px;
     padding: 20px;
+    text-align: center;
 }
+
+.content h1 {
+    color: rgb(83, 83, 83);
+}
+
+.content h2 {
+    color: rgb(0, 187, 240);
+}
+
+p {
+    color: rgb(83, 83, 83);
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: white;
+    color: rgb(83, 83, 83);
     min-height: 150px;
+    align-self: center;
 }
